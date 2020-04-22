@@ -8,7 +8,7 @@ function buttonhandler(){
   return (
     <View style={styles.container}>
       <Text >Hello World!</Text>
-      <Button title = "Press Me" onPress = {buttonhandler}></Button>
+      <Button title = "Click Me" onPress = {buttonhandler}></Button>
     </View>
   );
 }
